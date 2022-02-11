@@ -72,3 +72,5 @@ n1.toFixed(2).replace('.',',')
 // Formata o numero para real acrescentando o R$
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //
 ```
+
+## Aula 8 - Operadores
