@@ -1,5 +1,6 @@
 var diaSemana = new Date().getDay();
-console.log(diaSemana);
+
+//console.log(diaSemana);
 
 switch (diaSemana) {
   case 0:
