@@ -16,6 +16,6 @@ function carregar() {
   } else {
     img.src = "./img/noite.png";
     document.body.style.background = "#3b4149";
-    msg.innerHTML = " Boa noite!";
+    msg.innerHTML += " Boa noite!";
   }
 }
