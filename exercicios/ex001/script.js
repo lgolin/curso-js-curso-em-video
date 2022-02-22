@@ -8,7 +8,7 @@ function carregar() {
   if (horaAtual < 12) {
     img.src = "./img/manha.png";
     document.body.style.background = "#AC9A8E";
-    msg.innerHTML = " Bom dia!";
+    msg.innerHTML += " Bom dia!";
   } else if (horaAtual < 18) {
     img.src = "./img/tarde.png";
     document.body.style.background = "#d89d6a";
